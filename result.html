@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Results</title>
+        <link rel="stylesheet" href="Sieses.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <style>
+            ul {
+                    margin : 0;
+                    padding : 0;
+                    overflow : hidden;
+                    list-style-type : none;
+                    background-color : Blue;
+                    font : 17px Arial Rounded MT Bold , sans-serif;
+                }
+
+            li a {
+                    float : left;
+                    color : white;
+                    display : block;
+                    text-align : center;
+                    padding : 15px 15px;
+                    text-decoration : none;
+                  }
+
+            li a:hover {
+                                background-color : Navy;
+                            }
+            body {
+                font : Arial Black , sans-serif;
+                color : White;
+                 }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li style="float:right"><a href="sign.html">Login</a></li>
+            <li style="float:right"><a href="reg.html">Register</a></li>
+            <li style="float:right"><a href="search.html">Search Flights</a></li>
+        </ul>
+        <h5>Search Results :</h5>
+<table>
+  <tr>
+    <th>Flight-ID</th>
+    <th>From</th>
+    <th>To</th>
+    <th>Date</th>
+    <th>Departure</th>
+    <th>Arrival</th>
+    <th>Duration</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Dhaka</td>
+    <td>Kolkata</td>
+    <td>10/12/2018</td>
+    <td>7 AM</td>
+    <td>8 AM</td>
+    <td>1 Hour</td>
+    <td>5000</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Dhaka</td>
+    <td>Kolkata</td>
+    <td>10/12/2018</td>
+    <td>8 AM</td>
+    <td>9 AM</td>
+    <td>1 Hour</td>
+    <td>5500</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Dhaka</td>
+    <td>Kolkata</td>
+    <td>10/12/2018</td>
+    <td>9 AM</td>
+    <td>10 AM</td>
+    <td>1 Hour</td>
+    <td>6000</td>
+  </tr>
+  </table>
+        <h5>Please remember the Flight-ID because you will need it for booking</h5>
+        <h5>Press the button below to make payment</h5>
+        <a href="pay.html" class="waves-effect waves-light btn red"><i class="material-icons right">send</i>Make Payment</a>
+    </body>
+</html>

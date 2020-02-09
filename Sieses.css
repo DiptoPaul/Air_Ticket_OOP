@@ -1,0 +1,33 @@
+html {
+    background-color : #37474F;
+    padding : 7% 15%;
+    font : 17px Arial , sans-serif;
+    color : #9FA8DA;
+        }
+
+table {
+    padding : 25px;
+    border-spacing : 25px;
+         }
+
+ul {
+    margin : 0;
+    padding : 0;
+    overflow : hidden;
+    list-style-type : none;
+    background-color : Blue;
+    font : 17px Arial Rounded MT Bold , sans-serif;
+    }
+
+li a {
+    float : left;
+    color : white;
+    display : block;
+    text-align : center;
+    padding : 15px 15px;
+    text-decoration : none;
+      }
+
+li a:hover {
+    background-color : Navy;
+                }
